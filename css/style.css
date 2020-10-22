@@ -241,3 +241,13 @@ header{
 
 /*Your code here again.*/ 
 /*Add media query to handle reduced-motion*/
+
+@media (prefers-reduced-motion){
+  html{
+    scroll-behavior: auto;
+  }
+  #logo{
+    -webkit-animation: none;
+    animation: none;
+  }
+}
