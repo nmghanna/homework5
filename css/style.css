@@ -228,10 +228,7 @@ header{
   body{
     background-image: none;
   }
-  img{
-    display: none;
-  }
-  .gallery{
+  .gallery, #gallery{
     display: none;
   }
   h2{
